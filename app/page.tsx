@@ -8,21 +8,21 @@ export default function Home() {
       <Toaster />
 
       <section className="w-screen h-dvh grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="md:h-full h-80 bg-[#FCD0A1] relative overflow-hidden">
+        <div className="md:h-full h-80 bg-[#ecc637] relative overflow-hidden">
           <Image
-            src="/mobile-app.png"
-            alt="Mobile App Screenshots"
+            src="/mendicoechea.png"
+            alt="Logotipo de la Escuela de Apicultura de Mendicoechea"
             fill
-            className="object-contain mt-8 md:mt-24 px-14 object-bottom"
+            className="object-contain mt-8 px-14 py-14"
           />
         </div>
 
         <main className="flex flex-col gap-8 mt-8 justify-center px-6 pb-10">
-          <h1 className="font-semibold tracking-tight text-zinc-900 text-3xl leading-tight md:text-4xl max-w-lg">
-            Join the conversation: Secure your spot on our Chat App!
+          <h1 className="font-semibold tracking-tight text-[#111c11] text-3xl leading-tight md:text-4xl max-w-lg">
+            ¡Bienvenid@ a la Escuela de Apicultura de Mendicoechea!
           </h1>
-          <p className="text-gray-500">
-            Join the waitlist to be notified when our app is available!
+          <p className="text-gray-700 text-xl">
+            ¿Te apuntas?<br/>Déjanos tu correo para que podamos ponernos en contacto contigo y hablar.
           </p>
 
           <EmailForm />
